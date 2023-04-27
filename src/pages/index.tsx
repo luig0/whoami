@@ -27,14 +27,28 @@ const Links = () => (
 const Content = () => (
   <>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Feugiat pretium nibh ipsum consequat nisl vel. Pharetra sit amet aliquam id diam maecenas ultricies.
-      Molestie a iaculis at erat. Sociis natoque penatibus et magnis dis. Sed sed risus pretium quam vulputate dignissim
-      suspendisse in est. Sit amet luctus venenatis lectus. Adipiscing vitae proin sagittis nisl rhoncus mattis. Aliquam
-      purus sit amet luctus venenatis lectus magna fringilla. In fermentum posuere urna nec tincidunt praesent semper
-      feugiat nibh. Suscipit tellus mauris a diam maecenas. Tristique senectus et netus et malesuada fames ac. Lorem
-      ipsum dolor sit amet consectetur adipiscing elit pellentesque. Lacus vel facilisis volutpat est. Euismod quis
-      viverra nibh cras. A diam maecenas sed enim ut sem viverra aliquet eget.
+      Welcome to my website! I am a full stack software engineer with a passion for creating elegant, scalable, and
+      user-friendly solutions to real-world problems.
+    </p>
+
+    <p>
+      I hold both an MS Computer Science from the Georgia Institute of Technology as well as an MBA with a focus in
+      Corporate Finance from Texas Christian University. In addition to my technical skills, I am a strong communicator
+      and collaborator. I have worked on projects with cross-functional teams and stakeholders, and I understand the
+      importance of clear and frequent communication to ensure the success of a project.{' '}
+    </p>
+
+    <p>
+      I care deeply about writing high quality code that is performant, maintainable, and testable. I have honed my
+      skills in a variety of technologies and frameworks, including JavaScript, Python, SQL, and Docker. I am
+      comfortable working with both front-end and back-end technologies and have experience deploying applications to
+      various cloud platforms.
+    </p>
+
+    <p>
+      I am excited to continue learning and growing as a software engineer, and I am always eager to take on new
+      challenges and opportunities. Thank you for taking the time to learn more about me, and I look forward to
+      connecting with you!
     </p>
   </>
 );
@@ -50,7 +64,7 @@ export default function Home() {
       </Head>
       <main className={inter.className}>
         <Container className="content mt-5">
-          <Row className="text-center mt-1 mb-1">
+          <Row className="text-center mt-1 mb-3">
             <Col>
               <Links />
             </Col>
@@ -69,7 +83,7 @@ export default function Home() {
               </div>
             </Col>
           </Row>
-          <Row className="pt-2 pb-2 ps-1 pe-1 with-bg rounded-4 fs-5">
+          <Row className="pt-2 pb-2 ps-1 pe-1 mb-5 with-bg rounded-4">
             <Col>
               <Content />
             </Col>
