@@ -4,7 +4,7 @@ body {
 }
 
 main .content {
-  max-width: 600px;
+  max-width: 640px;
 }
 
 a {
@@ -13,4 +13,8 @@ a {
 
 a:hover {
   color: #333333;
+}
+
+.with-bg {
+  background-color: rgba(256, 256, 256, 0.07);
 }

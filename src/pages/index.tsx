@@ -36,15 +36,6 @@ const Content = () => (
       ipsum dolor sit amet consectetur adipiscing elit pellentesque. Lacus vel facilisis volutpat est. Euismod quis
       viverra nibh cras. A diam maecenas sed enim ut sem viverra aliquet eget.
     </p>
-
-    <p>
-      Arcu odio ut sem nulla. Magna etiam tempor orci eu lobortis elementum. Ac tortor vitae purus faucibus ornare
-      suspendisse sed nisi lacus. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Cras tincidunt
-      lobortis feugiat vivamus at augue eget arcu dictum. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
-      purus. Morbi non arcu risus quis varius quam quisque id diam. Sit amet venenatis urna cursus eget. Nibh nisl
-      condimentum id venenatis a condimentum vitae sapien pellentesque. Elit scelerisque mauris pellentesque pulvinar
-      pellentesque habitant morbi.
-    </p>
   </>
 );
 
@@ -64,15 +55,21 @@ export default function Home() {
               <Links />
             </Col>
           </Row>
-          <Row className="text-center mt-3 mb-3">
+          <Row className="text-center pt-2 pb-1">
             <Col>
               <Image src="/headshot.png" alt="me" width={128} height={128} roundedCircle />
             </Col>
           </Row>
-          <Row className="text-center mt-1 mb-1 fs-1 fw-bold">
-            <Col>Johnathan Cao</Col>
+          <Row className="pt-1 mb-4">
+            <Col>
+              <div className="text-center fs-1 fw-bold">Johnathan Cao</div>
+              <div className="text-center fs-6">
+                Full stack software engineer with master's in computer science and 4 years professional experience
+                building web applications.
+              </div>
+            </Col>
           </Row>
-          <Row className="mt-3 mb-3">
+          <Row className="pt-2 pb-2 ps-1 pe-1 with-bg rounded-4 fs-5">
             <Col>
               <Content />
             </Col>
