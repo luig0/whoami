@@ -32,7 +32,7 @@ const Content = () => (
     </p>
 
     <p>
-      I hold both an MS Computer Science from the Georgia Institute of Technology as well as an MBA with a focus in
+      I hold both an MS Computer Science from the Georgia Institute of Technology as well as an MBA with focus in
       Corporate Finance from Texas Christian University. In addition to my technical skills, I am a strong communicator
       and collaborator. I have worked on projects with cross-functional teams and stakeholders, and I understand the
       importance of clear and frequent communication to ensure the success of a project.{' '}
