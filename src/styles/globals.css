@@ -1,0 +1,16 @@
+body {
+  background-color: #708090;
+  color: #e6e6e6;
+}
+
+main .content {
+  max-width: 600px;
+}
+
+a {
+  color: #e6e6e6;
+}
+
+a:hover {
+  color: #333333;
+}
